@@ -10,4 +10,4 @@ pop_corn = input("Voulez vous des pop-corns ? (o/n)")
 
 new_prix = (prix,prix+5)[pop_corn=="o"] #condition ternaire
 
-print ("Cela vous fera : {} €".format(new_prix))
+print ("Le prix total est de : {} €".format(new_prix))
